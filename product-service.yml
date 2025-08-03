@@ -26,4 +26,6 @@ eureka:
 
 logging:
   level:
-    org.springframework.cloud.config: DEBUG
+    root: DEBUG
+    org.spring.framework.web: DEBUG
+    com.example.product_service: DEBUG
