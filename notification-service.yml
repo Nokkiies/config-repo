@@ -6,6 +6,8 @@ spring:
     name: notification-service
   profiles:
     active: dev
+  kafka:
+    bootstrap-servers: localhost:29092
 
 eureka:
   client:
